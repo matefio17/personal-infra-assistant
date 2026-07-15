@@ -1,0 +1,54 @@
+# Python
+
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Frontend 
+
+node_modules/
+/frontend/dist
+/frontend/dist-ssr
+/frontend/out-tsc
+.eslintcache
+.stylelintcache
+*.local
+
+# Environment variables
+
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Tools + IDE
+
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*~
+.DS_Store
+Thumbs.db
