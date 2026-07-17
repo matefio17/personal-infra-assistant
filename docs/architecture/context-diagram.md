@@ -54,7 +54,9 @@ An intelligent infrastructure management platform that collects system metrics, 
 | **AI Personal Infrastructure Assistant** | stores/retrieves data from | **Internal Database** |
 | **AI Personal Infrastructure Assistant** | sends alerts to | **Notification Services** |
 
+## 5. Context Diagram (Mermaid)
 
+```mermaid
 graph LR
 
     Admin[System Administrator]
@@ -84,3 +86,6 @@ graph LR
     LLM -->|Retrieves context| RAG
 
     Assistant -->|Sends alerts| Notify
+
+```
+    
