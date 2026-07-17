@@ -54,7 +54,7 @@ An intelligent infrastructure management platform that collects system metrics, 
 | **AI Personal Infrastructure Assistant** | stores/retrieves data from | **Internal Database** |
 | **AI Personal Infrastructure Assistant** | sends alerts to | **Notification Services** |
 
-
+```mermaid
 graph LR
 
     Admin[System Administrator]
